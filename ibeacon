@@ -16,10 +16,6 @@ https://itunes.apple.com/us/app/beacon-toolkit/id728479775
 UUID, major, minor and power may also be specified by setting the environment
 variables `IBEACON_UUID,' `IBEACON_MAJOR,' `IBEACON_MINOR' and `IBEACON_POWER.'
 Options set with command line switches always override defaults or environment.
-
-NOTE: for environment variables to work, the following must be present
-in your `sudoers' file:
-  Defaults env_keep += "IBEACON_UUID IBEACON_MAJOR IBEACON_MINOR IBEACON_POWER"
 """
 
 import os
