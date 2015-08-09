@@ -9,7 +9,7 @@ To run the script
 
 1. Unblock the bluetooth
 
-# rfkill unblock bluetooth
+$ rfkill unblock bluetooth
 
 2. Make the script executable 
 
